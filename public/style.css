@@ -1,0 +1,182 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+    /* background-color: #242424 */
+}
+
+header img{
+    width: 100%;
+    height: auto;
+}
+nav{
+    display: flex;
+    align-items: center;
+    height: 70px;
+    background: #111;
+    box-shadow: #11111100;
+}
+
+nav ul{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    margin-left: auto;
+}
+nav li{
+    margin-right: 15px;
+}
+nav li a{
+    color: #fff;
+    text-decoration: none;
+    display: flex;
+    float: right;
+}
+nav li a:hover{
+    color: #d0bb1b;
+}
+label{
+    color: #e0cd21;
+    margin-left: 10px;
+}
+.section2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 10px;
+    color: #fff;
+    background-color: #242424;
+}
+.imagen-section2 img{
+    width: 100%;
+    height: auto;
+    position: relative;
+}
+.texto-header{
+    position: absolute;
+    top: 60%; 
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #e0cd21;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+    
+}
+.texto-header h1{
+    font-size: 2.5em;
+}
+.texto-header p{
+    font-size: 1.2em;
+}
+.texto-section2{
+    font-size: 1.2em;
+    width: auto;
+    text-align: center;
+    
+}
+.hidden{
+    opacity: 0;
+    filter: blur(5px);
+    transform: translate(-100%);
+
+    transition: all 1s;
+}
+.show{
+    opacity: 1;
+    filter: blur(0);
+    transform: translateX(0);
+}
+/* -------------------------------------------------------------- */
+.section3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.section3-servicio{
+    width: 100%;
+    text-align: center;
+    padding: 30px 0;
+}
+.section3-servicios-servicios{
+    width: 100%;
+    box-sizing: border-box;
+    margin-top: 30px;
+    padding: 0 50px;
+}
+.section3-card{
+    width: 33%;
+    float: left;
+}
+/* -------------------------------------------------------------- */
+/* FORMULARIO */
+.formulario-contacto h1{
+    display: flex;
+    justify-content: center;
+    padding: 30px 0;
+}
+.contenedor-principal{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.imagen-lateral img{
+    max-width: 70%;
+    margin-left: 30px;
+}
+.formulario{
+    width: 400px;
+    margin-left: 50px;
+    border: 2px solid #ccc;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+
+label {
+    font-weight: bold;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    background-color: #e0cd21;
+    color: #ffffff;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #d0bb1b;
+}
+
+.footer{
+    width: 100%;
+    height: 100px;
+    margin-top: 20px;
+    background: #242424;
+}
+.footer-links{
+    font-size: 30px;
+    display: flex;
+    justify-content: end;
+    
+    margin-left: 5px;
+    color: gray;
+}
+.footer-links i{
+    margin-left: 5px;
+    cursor: pointer;
+}
+.footer-links i:hover{
+    color: #d0bb1b;
+}
